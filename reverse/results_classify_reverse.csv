@@ -1,0 +1,1489 @@
+pdk,target,target_label,combination,n_features,model,cv_accuracy_mean,cv_accuracy_std
+ASIC7,fpga_luts,FPGA LUTs,area,1,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,area,1,Perceptron,0.7333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area,1,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,fmax,1,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,fmax,1,Perceptron,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,fmax,1,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,power,1,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,power,1,Perceptron,0.3333,0.1886
+ASIC7,fpga_luts,FPGA LUTs,power,1,SGDClassifier,0.4667,0.1886
+ASIC7,fpga_luts,FPGA LUTs,nets,1,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,nets,1,Perceptron,0.5333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,nets,1,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,registers,1,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,registers,1,Perceptron,0.4,0.1633
+ASIC7,fpga_luts,FPGA LUTs,registers,1,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + fmax,2,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,area + fmax,2,Perceptron,0.6,0.0
+ASIC7,fpga_luts,FPGA LUTs,area + fmax,2,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + power,2,LogisticRegression,0.6667,0.1886
+ASIC7,fpga_luts,FPGA LUTs,area + power,2,Perceptron,0.7333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + power,2,SGDClassifier,0.7333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + nets,2,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,area + nets,2,Perceptron,0.4667,0.1886
+ASIC7,fpga_luts,FPGA LUTs,area + nets,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_luts,FPGA LUTs,area + registers,2,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,area + registers,2,Perceptron,0.5333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + registers,2,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,fmax + power,2,LogisticRegression,0.4,0.1633
+ASIC7,fpga_luts,FPGA LUTs,fmax + power,2,Perceptron,0.5333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,fmax + power,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_luts,FPGA LUTs,fmax + nets,2,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,fmax + nets,2,Perceptron,0.4667,0.1886
+ASIC7,fpga_luts,FPGA LUTs,fmax + nets,2,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,fmax + registers,2,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,fmax + registers,2,Perceptron,0.5333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,fmax + registers,2,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,power + nets,2,LogisticRegression,0.6667,0.1886
+ASIC7,fpga_luts,FPGA LUTs,power + nets,2,Perceptron,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,power + nets,2,SGDClassifier,0.8,0.1633
+ASIC7,fpga_luts,FPGA LUTs,power + registers,2,LogisticRegression,0.5333,0.1886
+ASIC7,fpga_luts,FPGA LUTs,power + registers,2,Perceptron,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,power + registers,2,SGDClassifier,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,nets + registers,2,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,nets + registers,2,Perceptron,0.5333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,nets + registers,2,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + power,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + power,3,Perceptron,0.7333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + power,3,SGDClassifier,0.7333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + nets,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + nets,3,Perceptron,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + nets,3,SGDClassifier,0.6,0.0
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + registers,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + registers,3,Perceptron,0.6,0.0
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + registers,3,SGDClassifier,0.6,0.0
+ASIC7,fpga_luts,FPGA LUTs,area + power + nets,3,LogisticRegression,0.7333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + power + nets,3,Perceptron,0.6,0.0
+ASIC7,fpga_luts,FPGA LUTs,area + power + nets,3,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + power + registers,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,area + power + registers,3,Perceptron,0.7333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + power + registers,3,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + nets + registers,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,area + nets + registers,3,Perceptron,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + nets + registers,3,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,fmax + power + nets,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,fmax + power + nets,3,Perceptron,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,fmax + power + nets,3,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,fmax + power + registers,3,LogisticRegression,0.5333,0.1886
+ASIC7,fpga_luts,FPGA LUTs,fmax + power + registers,3,Perceptron,0.6667,0.1886
+ASIC7,fpga_luts,FPGA LUTs,fmax + power + registers,3,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,fmax + nets + registers,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,fmax + nets + registers,3,Perceptron,0.5333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,fmax + nets + registers,3,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,power + nets + registers,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,power + nets + registers,3,Perceptron,0.6667,0.1886
+ASIC7,fpga_luts,FPGA LUTs,power + nets + registers,3,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + power + nets,4,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + power + nets,4,Perceptron,0.7333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + power + nets,4,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + power + registers,4,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + power + registers,4,Perceptron,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + power + registers,4,SGDClassifier,0.7333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + nets + registers,4,LogisticRegression,0.6,0.1633
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + nets + registers,4,Perceptron,0.6,0.0
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + nets + registers,4,SGDClassifier,0.6,0.0
+ASIC7,fpga_luts,FPGA LUTs,area + power + nets + registers,4,LogisticRegression,0.7333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + power + nets + registers,4,Perceptron,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + power + nets + registers,4,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,fmax + power + nets + registers,4,LogisticRegression,0.5333,0.1886
+ASIC7,fpga_luts,FPGA LUTs,fmax + power + nets + registers,4,Perceptron,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,fmax + power + nets + registers,4,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + power + nets + registers,5,LogisticRegression,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + power + nets + registers,5,Perceptron,0.6667,0.0943
+ASIC7,fpga_luts,FPGA LUTs,area + fmax + power + nets + registers,5,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area,1,LogisticRegression,0.4667,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area,1,Perceptron,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area,1,SGDClassifier,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax,1,LogisticRegression,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax,1,Perceptron,0.6667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax,1,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),power,1,LogisticRegression,0.4,0.2828
+ASIC7,fpga_fmax,FPGA Fmax (MHz),power,1,Perceptron,0.3333,0.2494
+ASIC7,fpga_fmax,FPGA Fmax (MHz),power,1,SGDClassifier,0.3333,0.2494
+ASIC7,fpga_fmax,FPGA Fmax (MHz),nets,1,LogisticRegression,0.4667,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),nets,1,Perceptron,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),nets,1,SGDClassifier,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),registers,1,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),registers,1,Perceptron,0.4667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),registers,1,SGDClassifier,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax,2,LogisticRegression,0.6667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax,2,Perceptron,0.8,0.0
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax,2,SGDClassifier,0.7333,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + power,2,LogisticRegression,0.4667,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + power,2,Perceptron,0.4,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + power,2,SGDClassifier,0.3333,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + nets,2,LogisticRegression,0.5333,0.2494
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + nets,2,Perceptron,0.4667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + nets,2,SGDClassifier,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + registers,2,LogisticRegression,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + registers,2,Perceptron,0.5333,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + registers,2,SGDClassifier,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + power,2,LogisticRegression,0.4,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + power,2,Perceptron,0.5333,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + power,2,SGDClassifier,0.5333,0.2494
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + nets,2,LogisticRegression,0.6667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + nets,2,Perceptron,0.6,0.0
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + nets,2,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + registers,2,LogisticRegression,0.6,0.0
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + registers,2,Perceptron,0.5333,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + registers,2,SGDClassifier,0.5333,0.2494
+ASIC7,fpga_fmax,FPGA Fmax (MHz),power + nets,2,LogisticRegression,0.4667,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),power + nets,2,Perceptron,0.3333,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),power + nets,2,SGDClassifier,0.3333,0.2494
+ASIC7,fpga_fmax,FPGA Fmax (MHz),power + registers,2,LogisticRegression,0.4,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),power + registers,2,Perceptron,0.2,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),power + registers,2,SGDClassifier,0.3333,0.2494
+ASIC7,fpga_fmax,FPGA Fmax (MHz),nets + registers,2,LogisticRegression,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),nets + registers,2,Perceptron,0.4667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),nets + registers,2,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + power,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + power,3,Perceptron,0.5333,0.2494
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + power,3,SGDClassifier,0.5333,0.2494
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + nets,3,LogisticRegression,0.6667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + nets,3,Perceptron,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + nets,3,SGDClassifier,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + registers,3,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + registers,3,Perceptron,0.5333,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + registers,3,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + power + nets,3,LogisticRegression,0.5333,0.2494
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + power + nets,3,Perceptron,0.4,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + power + nets,3,SGDClassifier,0.4667,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + power + registers,3,LogisticRegression,0.4667,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + power + registers,3,Perceptron,0.5333,0.2494
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + power + registers,3,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + nets + registers,3,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + nets + registers,3,Perceptron,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + nets + registers,3,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + power + nets,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + power + nets,3,Perceptron,0.5333,0.3771
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + power + nets,3,SGDClassifier,0.6667,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + power + registers,3,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + power + registers,3,Perceptron,0.5333,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + power + registers,3,SGDClassifier,0.4,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + nets + registers,3,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + nets + registers,3,Perceptron,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + nets + registers,3,SGDClassifier,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),power + nets + registers,3,LogisticRegression,0.4667,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),power + nets + registers,3,Perceptron,0.4667,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),power + nets + registers,3,SGDClassifier,0.3333,0.2494
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + nets,4,LogisticRegression,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + nets,4,Perceptron,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + nets,4,SGDClassifier,0.6,0.2828
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + registers,4,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + registers,4,Perceptron,0.6,0.1633
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + registers,4,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + nets + registers,4,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + nets + registers,4,Perceptron,0.5333,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + nets + registers,4,SGDClassifier,0.5333,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + power + nets + registers,4,LogisticRegression,0.4667,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + power + nets + registers,4,Perceptron,0.4667,0.1886
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + power + nets + registers,4,SGDClassifier,0.2667,0.2494
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + power + nets + registers,4,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + power + nets + registers,4,Perceptron,0.5333,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),fmax + power + nets + registers,4,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + nets + registers,5,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + nets + registers,5,Perceptron,0.5333,0.2494
+ASIC7,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + nets + registers,5,SGDClassifier,0.4667,0.1886
+ASIC7,fpga_power,FPGA Power (mW),area,1,LogisticRegression,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area,1,Perceptron,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area,1,SGDClassifier,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),fmax,1,LogisticRegression,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),fmax,1,Perceptron,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),fmax,1,SGDClassifier,0.3333,0.1886
+ASIC7,fpga_power,FPGA Power (mW),power,1,LogisticRegression,0.4,0.0
+ASIC7,fpga_power,FPGA Power (mW),power,1,Perceptron,0.3333,0.1886
+ASIC7,fpga_power,FPGA Power (mW),power,1,SGDClassifier,0.3333,0.1886
+ASIC7,fpga_power,FPGA Power (mW),nets,1,LogisticRegression,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),nets,1,Perceptron,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),nets,1,SGDClassifier,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),registers,1,LogisticRegression,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),registers,1,Perceptron,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),registers,1,SGDClassifier,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),area + fmax,2,LogisticRegression,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + fmax,2,Perceptron,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + fmax,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),area + power,2,LogisticRegression,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + power,2,Perceptron,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + power,2,SGDClassifier,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + nets,2,LogisticRegression,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + nets,2,Perceptron,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),area + nets,2,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + registers,2,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + registers,2,Perceptron,0.5333,0.1886
+ASIC7,fpga_power,FPGA Power (mW),area + registers,2,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),fmax + power,2,LogisticRegression,0.4,0.0
+ASIC7,fpga_power,FPGA Power (mW),fmax + power,2,Perceptron,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),fmax + power,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),fmax + nets,2,LogisticRegression,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),fmax + nets,2,Perceptron,0.3333,0.1886
+ASIC7,fpga_power,FPGA Power (mW),fmax + nets,2,SGDClassifier,0.3333,0.1886
+ASIC7,fpga_power,FPGA Power (mW),fmax + registers,2,LogisticRegression,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),fmax + registers,2,Perceptron,0.3333,0.1886
+ASIC7,fpga_power,FPGA Power (mW),fmax + registers,2,SGDClassifier,0.3333,0.1886
+ASIC7,fpga_power,FPGA Power (mW),power + nets,2,LogisticRegression,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),power + nets,2,Perceptron,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),power + nets,2,SGDClassifier,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),power + registers,2,LogisticRegression,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),power + registers,2,Perceptron,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),power + registers,2,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),nets + registers,2,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),nets + registers,2,Perceptron,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),nets + registers,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + power,3,LogisticRegression,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + power,3,Perceptron,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + power,3,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + nets,3,LogisticRegression,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + nets,3,Perceptron,0.3333,0.1886
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + nets,3,SGDClassifier,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + registers,3,LogisticRegression,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + registers,3,Perceptron,0.3333,0.1886
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + registers,3,SGDClassifier,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + power + nets,3,LogisticRegression,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + power + nets,3,Perceptron,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + power + nets,3,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + power + registers,3,LogisticRegression,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + power + registers,3,Perceptron,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + power + registers,3,SGDClassifier,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),area + nets + registers,3,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + nets + registers,3,Perceptron,0.4667,0.2494
+ASIC7,fpga_power,FPGA Power (mW),area + nets + registers,3,SGDClassifier,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),fmax + power + nets,3,LogisticRegression,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),fmax + power + nets,3,Perceptron,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),fmax + power + nets,3,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),fmax + power + registers,3,LogisticRegression,0.4,0.0
+ASIC7,fpga_power,FPGA Power (mW),fmax + power + registers,3,Perceptron,0.4667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),fmax + power + registers,3,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),fmax + nets + registers,3,LogisticRegression,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),fmax + nets + registers,3,Perceptron,0.3333,0.1886
+ASIC7,fpga_power,FPGA Power (mW),fmax + nets + registers,3,SGDClassifier,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),power + nets + registers,3,LogisticRegression,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),power + nets + registers,3,Perceptron,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),power + nets + registers,3,SGDClassifier,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + power + nets,4,LogisticRegression,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + power + nets,4,Perceptron,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + power + nets,4,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + power + registers,4,LogisticRegression,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + power + registers,4,Perceptron,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + power + registers,4,SGDClassifier,0.2667,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + nets + registers,4,LogisticRegression,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + nets + registers,4,Perceptron,0.4667,0.2494
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + nets + registers,4,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + power + nets + registers,4,LogisticRegression,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + power + nets + registers,4,Perceptron,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + power + nets + registers,4,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),fmax + power + nets + registers,4,LogisticRegression,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),fmax + power + nets + registers,4,Perceptron,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),fmax + power + nets + registers,4,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + power + nets + registers,5,LogisticRegression,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + power + nets + registers,5,Perceptron,0.4,0.1633
+ASIC7,fpga_power,FPGA Power (mW),area + fmax + power + nets + registers,5,SGDClassifier,0.4,0.1633
+ASIC7,fpga_nets,FPGA Nets,area,1,LogisticRegression,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,area,1,Perceptron,0.6667,0.0943
+ASIC7,fpga_nets,FPGA Nets,area,1,SGDClassifier,0.6,0.0
+ASIC7,fpga_nets,FPGA Nets,fmax,1,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_nets,FPGA Nets,fmax,1,Perceptron,0.4,0.1633
+ASIC7,fpga_nets,FPGA Nets,fmax,1,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_nets,FPGA Nets,power,1,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_nets,FPGA Nets,power,1,Perceptron,0.4667,0.1886
+ASIC7,fpga_nets,FPGA Nets,power,1,SGDClassifier,0.4667,0.2494
+ASIC7,fpga_nets,FPGA Nets,nets,1,LogisticRegression,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,nets,1,Perceptron,0.4667,0.0943
+ASIC7,fpga_nets,FPGA Nets,nets,1,SGDClassifier,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,registers,1,LogisticRegression,0.6667,0.2494
+ASIC7,fpga_nets,FPGA Nets,registers,1,Perceptron,0.4667,0.0943
+ASIC7,fpga_nets,FPGA Nets,registers,1,SGDClassifier,0.4,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + fmax,2,LogisticRegression,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + fmax,2,Perceptron,0.5333,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + fmax,2,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + power,2,LogisticRegression,0.7333,0.2494
+ASIC7,fpga_nets,FPGA Nets,area + power,2,Perceptron,0.6667,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + power,2,SGDClassifier,0.7333,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + nets,2,LogisticRegression,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + nets,2,Perceptron,0.4667,0.1886
+ASIC7,fpga_nets,FPGA Nets,area + nets,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + registers,2,LogisticRegression,0.6667,0.2494
+ASIC7,fpga_nets,FPGA Nets,area + registers,2,Perceptron,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + registers,2,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_nets,FPGA Nets,fmax + power,2,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_nets,FPGA Nets,fmax + power,2,Perceptron,0.4,0.1633
+ASIC7,fpga_nets,FPGA Nets,fmax + power,2,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_nets,FPGA Nets,fmax + nets,2,LogisticRegression,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,fmax + nets,2,Perceptron,0.4667,0.0943
+ASIC7,fpga_nets,FPGA Nets,fmax + nets,2,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_nets,FPGA Nets,fmax + registers,2,LogisticRegression,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,fmax + registers,2,Perceptron,0.4667,0.0943
+ASIC7,fpga_nets,FPGA Nets,fmax + registers,2,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_nets,FPGA Nets,power + nets,2,LogisticRegression,0.6667,0.2494
+ASIC7,fpga_nets,FPGA Nets,power + nets,2,Perceptron,0.6667,0.0943
+ASIC7,fpga_nets,FPGA Nets,power + nets,2,SGDClassifier,0.6,0.0
+ASIC7,fpga_nets,FPGA Nets,power + registers,2,LogisticRegression,0.6667,0.2494
+ASIC7,fpga_nets,FPGA Nets,power + registers,2,Perceptron,0.5333,0.2494
+ASIC7,fpga_nets,FPGA Nets,power + registers,2,SGDClassifier,0.6,0.2828
+ASIC7,fpga_nets,FPGA Nets,nets + registers,2,LogisticRegression,0.6667,0.2494
+ASIC7,fpga_nets,FPGA Nets,nets + registers,2,Perceptron,0.6,0.0
+ASIC7,fpga_nets,FPGA Nets,nets + registers,2,SGDClassifier,0.7333,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + fmax + power,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + fmax + power,3,Perceptron,0.7333,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + fmax + power,3,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + fmax + nets,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + fmax + nets,3,Perceptron,0.6,0.0
+ASIC7,fpga_nets,FPGA Nets,area + fmax + nets,3,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + fmax + registers,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + fmax + registers,3,Perceptron,0.6667,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + fmax + registers,3,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + power + nets,3,LogisticRegression,0.8,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + power + nets,3,Perceptron,0.7333,0.1886
+ASIC7,fpga_nets,FPGA Nets,area + power + nets,3,SGDClassifier,0.8,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + power + registers,3,LogisticRegression,0.6667,0.2494
+ASIC7,fpga_nets,FPGA Nets,area + power + registers,3,Perceptron,0.8,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + power + registers,3,SGDClassifier,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + nets + registers,3,LogisticRegression,0.6667,0.2494
+ASIC7,fpga_nets,FPGA Nets,area + nets + registers,3,Perceptron,0.8,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + nets + registers,3,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_nets,FPGA Nets,fmax + power + nets,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,fmax + power + nets,3,Perceptron,0.6,0.0
+ASIC7,fpga_nets,FPGA Nets,fmax + power + nets,3,SGDClassifier,0.6,0.0
+ASIC7,fpga_nets,FPGA Nets,fmax + power + registers,3,LogisticRegression,0.5333,0.1886
+ASIC7,fpga_nets,FPGA Nets,fmax + power + registers,3,Perceptron,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,fmax + power + registers,3,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_nets,FPGA Nets,fmax + nets + registers,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,fmax + nets + registers,3,Perceptron,0.6667,0.0943
+ASIC7,fpga_nets,FPGA Nets,fmax + nets + registers,3,SGDClassifier,0.4667,0.1886
+ASIC7,fpga_nets,FPGA Nets,power + nets + registers,3,LogisticRegression,0.6667,0.2494
+ASIC7,fpga_nets,FPGA Nets,power + nets + registers,3,Perceptron,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,power + nets + registers,3,SGDClassifier,0.7333,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + fmax + power + nets,4,LogisticRegression,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + fmax + power + nets,4,Perceptron,0.7333,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + fmax + power + nets,4,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + fmax + power + registers,4,LogisticRegression,0.5333,0.1886
+ASIC7,fpga_nets,FPGA Nets,area + fmax + power + registers,4,Perceptron,0.6667,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + fmax + power + registers,4,SGDClassifier,0.6,0.0
+ASIC7,fpga_nets,FPGA Nets,area + fmax + nets + registers,4,LogisticRegression,0.6,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + fmax + nets + registers,4,Perceptron,0.6,0.0
+ASIC7,fpga_nets,FPGA Nets,area + fmax + nets + registers,4,SGDClassifier,0.4667,0.1886
+ASIC7,fpga_nets,FPGA Nets,area + power + nets + registers,4,LogisticRegression,0.8,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + power + nets + registers,4,Perceptron,0.8,0.1633
+ASIC7,fpga_nets,FPGA Nets,area + power + nets + registers,4,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_nets,FPGA Nets,fmax + power + nets + registers,4,LogisticRegression,0.5333,0.1886
+ASIC7,fpga_nets,FPGA Nets,fmax + power + nets + registers,4,Perceptron,0.4667,0.1886
+ASIC7,fpga_nets,FPGA Nets,fmax + power + nets + registers,4,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + fmax + power + nets + registers,5,LogisticRegression,0.6667,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + fmax + power + nets + registers,5,Perceptron,0.6667,0.0943
+ASIC7,fpga_nets,FPGA Nets,area + fmax + power + nets + registers,5,SGDClassifier,0.6,0.0
+ASIC7,fpga_ffs,FPGA FFs,area,1,LogisticRegression,0.6,0.2828
+ASIC7,fpga_ffs,FPGA FFs,area,1,Perceptron,0.4667,0.0943
+ASIC7,fpga_ffs,FPGA FFs,area,1,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_ffs,FPGA FFs,fmax,1,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_ffs,FPGA FFs,fmax,1,Perceptron,0.4,0.1633
+ASIC7,fpga_ffs,FPGA FFs,fmax,1,SGDClassifier,0.3333,0.1886
+ASIC7,fpga_ffs,FPGA FFs,power,1,LogisticRegression,0.4,0.1633
+ASIC7,fpga_ffs,FPGA FFs,power,1,Perceptron,0.4,0.1633
+ASIC7,fpga_ffs,FPGA FFs,power,1,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_ffs,FPGA FFs,nets,1,LogisticRegression,0.6,0.2828
+ASIC7,fpga_ffs,FPGA FFs,nets,1,Perceptron,0.4667,0.1886
+ASIC7,fpga_ffs,FPGA FFs,nets,1,SGDClassifier,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,registers,1,LogisticRegression,0.6,0.3266
+ASIC7,fpga_ffs,FPGA FFs,registers,1,Perceptron,0.5333,0.0943
+ASIC7,fpga_ffs,FPGA FFs,registers,1,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_ffs,FPGA FFs,area + fmax,2,LogisticRegression,0.6667,0.1886
+ASIC7,fpga_ffs,FPGA FFs,area + fmax,2,Perceptron,0.6667,0.1886
+ASIC7,fpga_ffs,FPGA FFs,area + fmax,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_ffs,FPGA FFs,area + power,2,LogisticRegression,0.6,0.3266
+ASIC7,fpga_ffs,FPGA FFs,area + power,2,Perceptron,0.4,0.2828
+ASIC7,fpga_ffs,FPGA FFs,area + power,2,SGDClassifier,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,area + nets,2,LogisticRegression,0.6667,0.3399
+ASIC7,fpga_ffs,FPGA FFs,area + nets,2,Perceptron,0.5333,0.0943
+ASIC7,fpga_ffs,FPGA FFs,area + nets,2,SGDClassifier,0.4667,0.1886
+ASIC7,fpga_ffs,FPGA FFs,area + registers,2,LogisticRegression,0.6667,0.2494
+ASIC7,fpga_ffs,FPGA FFs,area + registers,2,Perceptron,0.6,0.0
+ASIC7,fpga_ffs,FPGA FFs,area + registers,2,SGDClassifier,0.4,0.0
+ASIC7,fpga_ffs,FPGA FFs,fmax + power,2,LogisticRegression,0.6,0.0
+ASIC7,fpga_ffs,FPGA FFs,fmax + power,2,Perceptron,0.4,0.1633
+ASIC7,fpga_ffs,FPGA FFs,fmax + power,2,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_ffs,FPGA FFs,fmax + nets,2,LogisticRegression,0.6667,0.1886
+ASIC7,fpga_ffs,FPGA FFs,fmax + nets,2,Perceptron,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,fmax + nets,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_ffs,FPGA FFs,fmax + registers,2,LogisticRegression,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,fmax + registers,2,Perceptron,0.5333,0.0943
+ASIC7,fpga_ffs,FPGA FFs,fmax + registers,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_ffs,FPGA FFs,power + nets,2,LogisticRegression,0.6,0.3266
+ASIC7,fpga_ffs,FPGA FFs,power + nets,2,Perceptron,0.8,0.1633
+ASIC7,fpga_ffs,FPGA FFs,power + nets,2,SGDClassifier,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,power + registers,2,LogisticRegression,0.6667,0.3399
+ASIC7,fpga_ffs,FPGA FFs,power + registers,2,Perceptron,0.6,0.0
+ASIC7,fpga_ffs,FPGA FFs,power + registers,2,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_ffs,FPGA FFs,nets + registers,2,LogisticRegression,0.6667,0.2494
+ASIC7,fpga_ffs,FPGA FFs,nets + registers,2,Perceptron,0.3333,0.0943
+ASIC7,fpga_ffs,FPGA FFs,nets + registers,2,SGDClassifier,0.4667,0.1886
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + power,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + power,3,Perceptron,0.7333,0.0943
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + power,3,SGDClassifier,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + nets,3,LogisticRegression,0.6667,0.1886
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + nets,3,Perceptron,0.4,0.1633
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + nets,3,SGDClassifier,0.5333,0.1886
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + registers,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + registers,3,Perceptron,0.4667,0.0943
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + registers,3,SGDClassifier,0.6,0.0
+ASIC7,fpga_ffs,FPGA FFs,area + power + nets,3,LogisticRegression,0.6667,0.3399
+ASIC7,fpga_ffs,FPGA FFs,area + power + nets,3,Perceptron,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,area + power + nets,3,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_ffs,FPGA FFs,area + power + registers,3,LogisticRegression,0.6,0.3266
+ASIC7,fpga_ffs,FPGA FFs,area + power + registers,3,Perceptron,0.5333,0.2494
+ASIC7,fpga_ffs,FPGA FFs,area + power + registers,3,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_ffs,FPGA FFs,area + nets + registers,3,LogisticRegression,0.6667,0.2494
+ASIC7,fpga_ffs,FPGA FFs,area + nets + registers,3,Perceptron,0.5333,0.0943
+ASIC7,fpga_ffs,FPGA FFs,area + nets + registers,3,SGDClassifier,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,fmax + power + nets,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,fmax + power + nets,3,Perceptron,0.7333,0.0943
+ASIC7,fpga_ffs,FPGA FFs,fmax + power + nets,3,SGDClassifier,0.5333,0.1886
+ASIC7,fpga_ffs,FPGA FFs,fmax + power + registers,3,LogisticRegression,0.6667,0.0943
+ASIC7,fpga_ffs,FPGA FFs,fmax + power + registers,3,Perceptron,0.4,0.1633
+ASIC7,fpga_ffs,FPGA FFs,fmax + power + registers,3,SGDClassifier,0.6,0.0
+ASIC7,fpga_ffs,FPGA FFs,fmax + nets + registers,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,fmax + nets + registers,3,Perceptron,0.5333,0.0943
+ASIC7,fpga_ffs,FPGA FFs,fmax + nets + registers,3,SGDClassifier,0.5333,0.1886
+ASIC7,fpga_ffs,FPGA FFs,power + nets + registers,3,LogisticRegression,0.6,0.3266
+ASIC7,fpga_ffs,FPGA FFs,power + nets + registers,3,Perceptron,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,power + nets + registers,3,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + power + nets,4,LogisticRegression,0.6667,0.1886
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + power + nets,4,Perceptron,0.6667,0.1886
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + power + nets,4,SGDClassifier,0.4667,0.2494
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + power + registers,4,LogisticRegression,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + power + registers,4,Perceptron,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + power + registers,4,SGDClassifier,0.5333,0.1886
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + nets + registers,4,LogisticRegression,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + nets + registers,4,Perceptron,0.4667,0.0943
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + nets + registers,4,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_ffs,FPGA FFs,area + power + nets + registers,4,LogisticRegression,0.6667,0.3399
+ASIC7,fpga_ffs,FPGA FFs,area + power + nets + registers,4,Perceptron,0.5333,0.1886
+ASIC7,fpga_ffs,FPGA FFs,area + power + nets + registers,4,SGDClassifier,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,fmax + power + nets + registers,4,LogisticRegression,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,fmax + power + nets + registers,4,Perceptron,0.7333,0.0943
+ASIC7,fpga_ffs,FPGA FFs,fmax + power + nets + registers,4,SGDClassifier,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + power + nets + registers,5,LogisticRegression,0.6,0.2828
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + power + nets + registers,5,Perceptron,0.6,0.1633
+ASIC7,fpga_ffs,FPGA FFs,area + fmax + power + nets + registers,5,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area,1,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area,1,Perceptron,0.3333,0.1886
+ASIC7,fpga_distram,FPGA Dist.RAM,area,1,SGDClassifier,0.3333,0.1886
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax,1,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax,1,Perceptron,0.4,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax,1,SGDClassifier,0.4,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,power,1,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,power,1,Perceptron,0.3333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,power,1,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,nets,1,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,nets,1,Perceptron,0.4,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,nets,1,SGDClassifier,0.2,0.0
+ASIC7,fpga_distram,FPGA Dist.RAM,registers,1,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,registers,1,Perceptron,0.2667,0.2494
+ASIC7,fpga_distram,FPGA Dist.RAM,registers,1,SGDClassifier,0.3333,0.1886
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax,2,LogisticRegression,0.4,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax,2,Perceptron,0.2667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax,2,SGDClassifier,0.2,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,area + power,2,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + power,2,Perceptron,0.3333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + power,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,area + nets,2,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + nets,2,Perceptron,0.3333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + nets,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,area + registers,2,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + registers,2,Perceptron,0.2667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + registers,2,SGDClassifier,0.2667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + power,2,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + power,2,Perceptron,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + power,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + nets,2,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + nets,2,Perceptron,0.2667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + nets,2,SGDClassifier,0.3333,0.2494
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + registers,2,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + registers,2,Perceptron,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + registers,2,SGDClassifier,0.5333,0.1886
+ASIC7,fpga_distram,FPGA Dist.RAM,power + nets,2,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,power + nets,2,Perceptron,0.4,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,power + nets,2,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,power + registers,2,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,power + registers,2,Perceptron,0.3333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,power + registers,2,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,nets + registers,2,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,nets + registers,2,Perceptron,0.2667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,nets + registers,2,SGDClassifier,0.2,0.0
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + power,3,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + power,3,Perceptron,0.2667,0.1886
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + power,3,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + nets,3,LogisticRegression,0.4,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + nets,3,Perceptron,0.4,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + nets,3,SGDClassifier,0.2,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + registers,3,LogisticRegression,0.4,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + registers,3,Perceptron,0.3333,0.2494
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + registers,3,SGDClassifier,0.3333,0.2494
+ASIC7,fpga_distram,FPGA Dist.RAM,area + power + nets,3,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + power + nets,3,Perceptron,0.4,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,area + power + nets,3,SGDClassifier,0.2667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + power + registers,3,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + power + registers,3,Perceptron,0.2667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + power + registers,3,SGDClassifier,0.2667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + nets + registers,3,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + nets + registers,3,Perceptron,0.3333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + nets + registers,3,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + power + nets,3,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + power + nets,3,Perceptron,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + power + nets,3,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + power + registers,3,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + power + registers,3,Perceptron,0.3333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + power + registers,3,SGDClassifier,0.4,0.0
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + nets + registers,3,LogisticRegression,0.4,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + nets + registers,3,Perceptron,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + nets + registers,3,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,power + nets + registers,3,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,power + nets + registers,3,Perceptron,0.4,0.0
+ASIC7,fpga_distram,FPGA Dist.RAM,power + nets + registers,3,SGDClassifier,0.4,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + power + nets,4,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + power + nets,4,Perceptron,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + power + nets,4,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + power + registers,4,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + power + registers,4,Perceptron,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + power + registers,4,SGDClassifier,0.4,0.0
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + nets + registers,4,LogisticRegression,0.4,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + nets + registers,4,Perceptron,0.3333,0.2494
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + nets + registers,4,SGDClassifier,0.4,0.1633
+ASIC7,fpga_distram,FPGA Dist.RAM,area + power + nets + registers,4,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + power + nets + registers,4,Perceptron,0.5333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + power + nets + registers,4,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + power + nets + registers,4,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + power + nets + registers,4,Perceptron,0.4,0.0
+ASIC7,fpga_distram,FPGA Dist.RAM,fmax + power + nets + registers,4,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + power + nets + registers,5,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + power + nets + registers,5,Perceptron,0.4,0.0
+ASIC7,fpga_distram,FPGA Dist.RAM,area + fmax + power + nets + registers,5,SGDClassifier,0.4,0.0
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area,1,LogisticRegression,0.6,0.2828
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area,1,Perceptron,0.4667,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area,1,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax,1,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax,1,Perceptron,0.4,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax,1,SGDClassifier,0.3333,0.1886
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,power,1,LogisticRegression,0.4,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,power,1,Perceptron,0.4,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,power,1,SGDClassifier,0.3333,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,nets,1,LogisticRegression,0.6,0.2828
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,nets,1,Perceptron,0.4667,0.1886
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,nets,1,SGDClassifier,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,registers,1,LogisticRegression,0.6,0.3266
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,registers,1,Perceptron,0.5333,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,registers,1,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax,2,LogisticRegression,0.6667,0.1886
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax,2,Perceptron,0.6667,0.1886
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + power,2,LogisticRegression,0.6,0.3266
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + power,2,Perceptron,0.4,0.2828
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + power,2,SGDClassifier,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + nets,2,LogisticRegression,0.6667,0.3399
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + nets,2,Perceptron,0.5333,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + nets,2,SGDClassifier,0.4667,0.1886
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + registers,2,LogisticRegression,0.6667,0.2494
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + registers,2,Perceptron,0.6,0.0
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + registers,2,SGDClassifier,0.4,0.0
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power,2,LogisticRegression,0.6,0.0
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power,2,Perceptron,0.4,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power,2,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + nets,2,LogisticRegression,0.6667,0.1886
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + nets,2,Perceptron,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + nets,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + registers,2,LogisticRegression,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + registers,2,Perceptron,0.5333,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + registers,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,power + nets,2,LogisticRegression,0.6,0.3266
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,power + nets,2,Perceptron,0.8,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,power + nets,2,SGDClassifier,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,power + registers,2,LogisticRegression,0.6667,0.3399
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,power + registers,2,Perceptron,0.6,0.0
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,power + registers,2,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,nets + registers,2,LogisticRegression,0.6667,0.2494
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,nets + registers,2,Perceptron,0.3333,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,nets + registers,2,SGDClassifier,0.4667,0.1886
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power,3,Perceptron,0.7333,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power,3,SGDClassifier,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + nets,3,LogisticRegression,0.6667,0.1886
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + nets,3,Perceptron,0.4,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + nets,3,SGDClassifier,0.5333,0.1886
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + registers,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + registers,3,Perceptron,0.4667,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + registers,3,SGDClassifier,0.6,0.0
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + nets,3,LogisticRegression,0.6667,0.3399
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + nets,3,Perceptron,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + nets,3,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + registers,3,LogisticRegression,0.6,0.3266
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + registers,3,Perceptron,0.5333,0.2494
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + registers,3,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + nets + registers,3,LogisticRegression,0.6667,0.2494
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + nets + registers,3,Perceptron,0.5333,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + nets + registers,3,SGDClassifier,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + nets,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + nets,3,Perceptron,0.7333,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + nets,3,SGDClassifier,0.5333,0.1886
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + registers,3,LogisticRegression,0.6667,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + registers,3,Perceptron,0.4,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + registers,3,SGDClassifier,0.6,0.0
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + nets + registers,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + nets + registers,3,Perceptron,0.5333,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + nets + registers,3,SGDClassifier,0.5333,0.1886
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,power + nets + registers,3,LogisticRegression,0.6,0.3266
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,power + nets + registers,3,Perceptron,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,power + nets + registers,3,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + nets,4,LogisticRegression,0.6667,0.1886
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + nets,4,Perceptron,0.6667,0.1886
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + nets,4,SGDClassifier,0.4667,0.2494
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + registers,4,LogisticRegression,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + registers,4,Perceptron,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + registers,4,SGDClassifier,0.5333,0.1886
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + nets + registers,4,LogisticRegression,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + nets + registers,4,Perceptron,0.4667,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + nets + registers,4,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + nets + registers,4,LogisticRegression,0.6667,0.3399
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + nets + registers,4,Perceptron,0.5333,0.1886
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + nets + registers,4,SGDClassifier,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + nets + registers,4,LogisticRegression,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + nets + registers,4,Perceptron,0.7333,0.0943
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + nets + registers,4,SGDClassifier,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + nets + registers,5,LogisticRegression,0.6,0.2828
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + nets + registers,5,Perceptron,0.6,0.1633
+ASIC7,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + nets + registers,5,SGDClassifier,0.6667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area,1,LogisticRegression,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area,1,Perceptron,0.6,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area,1,SGDClassifier,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax,1,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax,1,Perceptron,0.4667,0.2494
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax,1,SGDClassifier,0.4667,0.2494
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,power,1,LogisticRegression,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,power,1,Perceptron,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,power,1,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,nets,1,LogisticRegression,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,nets,1,Perceptron,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,nets,1,SGDClassifier,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,registers,1,LogisticRegression,0.6,0.2828
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,registers,1,Perceptron,0.6,0.0
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,registers,1,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax,2,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax,2,Perceptron,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax,2,SGDClassifier,0.6,0.0
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power,2,LogisticRegression,0.5333,0.2494
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power,2,Perceptron,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power,2,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + nets,2,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + nets,2,Perceptron,0.6,0.0
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + nets,2,SGDClassifier,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + registers,2,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + registers,2,Perceptron,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + registers,2,SGDClassifier,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power,2,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power,2,Perceptron,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power,2,SGDClassifier,0.6,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + nets,2,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + nets,2,Perceptron,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + nets,2,SGDClassifier,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + registers,2,LogisticRegression,0.6,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + registers,2,Perceptron,0.4,0.3266
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + registers,2,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + nets,2,LogisticRegression,0.5333,0.2494
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + nets,2,Perceptron,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + nets,2,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + registers,2,LogisticRegression,0.6,0.3266
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + registers,2,Perceptron,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + registers,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,nets + registers,2,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,nets + registers,2,Perceptron,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,nets + registers,2,SGDClassifier,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power,3,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power,3,Perceptron,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power,3,SGDClassifier,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + nets,3,LogisticRegression,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + nets,3,Perceptron,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + nets,3,SGDClassifier,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + registers,3,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + registers,3,Perceptron,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + registers,3,SGDClassifier,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + nets,3,LogisticRegression,0.5333,0.2494
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + nets,3,Perceptron,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + nets,3,SGDClassifier,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + registers,3,LogisticRegression,0.5333,0.2494
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + registers,3,Perceptron,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + registers,3,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + nets + registers,3,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + nets + registers,3,Perceptron,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + nets + registers,3,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + nets,3,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + nets,3,Perceptron,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + nets,3,SGDClassifier,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + registers,3,LogisticRegression,0.6,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + registers,3,Perceptron,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + registers,3,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + nets + registers,3,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + nets + registers,3,Perceptron,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + nets + registers,3,SGDClassifier,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + nets + registers,3,LogisticRegression,0.5333,0.2494
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + nets + registers,3,Perceptron,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + nets + registers,3,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + nets,4,LogisticRegression,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + nets,4,Perceptron,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + nets,4,SGDClassifier,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + registers,4,LogisticRegression,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + registers,4,Perceptron,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + registers,4,SGDClassifier,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + nets + registers,4,LogisticRegression,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + nets + registers,4,Perceptron,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + nets + registers,4,SGDClassifier,0.3333,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + nets + registers,4,LogisticRegression,0.6,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + nets + registers,4,Perceptron,0.4,0.0
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + nets + registers,4,SGDClassifier,0.5333,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + nets + registers,4,LogisticRegression,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + nets + registers,4,Perceptron,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + nets + registers,4,SGDClassifier,0.4,0.1633
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + nets + registers,5,LogisticRegression,0.4667,0.1886
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + nets + registers,5,Perceptron,0.4667,0.0943
+ASIC7,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + nets + registers,5,SGDClassifier,0.4,0.1633
+ASIC45,fpga_luts,FPGA LUTs,area,1,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,area,1,Perceptron,0.6,0.0
+ASIC45,fpga_luts,FPGA LUTs,area,1,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,fmax,1,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_luts,FPGA LUTs,fmax,1,Perceptron,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,fmax,1,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_luts,FPGA LUTs,power,1,LogisticRegression,0.4,0.0
+ASIC45,fpga_luts,FPGA LUTs,power,1,Perceptron,0.4,0.1633
+ASIC45,fpga_luts,FPGA LUTs,power,1,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_luts,FPGA LUTs,nets,1,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,nets,1,Perceptron,0.5333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,nets,1,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,registers,1,LogisticRegression,0.5333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,registers,1,Perceptron,0.6,0.0
+ASIC45,fpga_luts,FPGA LUTs,registers,1,SGDClassifier,0.6,0.0
+ASIC45,fpga_luts,FPGA LUTs,area + fmax,2,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,area + fmax,2,Perceptron,0.6667,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + fmax,2,SGDClassifier,0.6,0.0
+ASIC45,fpga_luts,FPGA LUTs,area + power,2,LogisticRegression,0.5333,0.1886
+ASIC45,fpga_luts,FPGA LUTs,area + power,2,Perceptron,0.6667,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + power,2,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + nets,2,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,area + nets,2,Perceptron,0.5333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + nets,2,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + registers,2,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,area + registers,2,Perceptron,0.5333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + registers,2,SGDClassifier,0.4,0.1633
+ASIC45,fpga_luts,FPGA LUTs,fmax + power,2,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_luts,FPGA LUTs,fmax + power,2,Perceptron,0.5333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,fmax + power,2,SGDClassifier,0.7333,0.1886
+ASIC45,fpga_luts,FPGA LUTs,fmax + nets,2,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,fmax + nets,2,Perceptron,0.6,0.0
+ASIC45,fpga_luts,FPGA LUTs,fmax + nets,2,SGDClassifier,0.7333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,fmax + registers,2,LogisticRegression,0.5333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,fmax + registers,2,Perceptron,0.5333,0.2494
+ASIC45,fpga_luts,FPGA LUTs,fmax + registers,2,SGDClassifier,0.4667,0.1886
+ASIC45,fpga_luts,FPGA LUTs,power + nets,2,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,power + nets,2,Perceptron,0.6667,0.1886
+ASIC45,fpga_luts,FPGA LUTs,power + nets,2,SGDClassifier,0.7333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,power + registers,2,LogisticRegression,0.5333,0.1886
+ASIC45,fpga_luts,FPGA LUTs,power + registers,2,Perceptron,0.5333,0.2494
+ASIC45,fpga_luts,FPGA LUTs,power + registers,2,SGDClassifier,0.6667,0.1886
+ASIC45,fpga_luts,FPGA LUTs,nets + registers,2,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,nets + registers,2,Perceptron,0.6,0.0
+ASIC45,fpga_luts,FPGA LUTs,nets + registers,2,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + power,3,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + power,3,Perceptron,0.6667,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + power,3,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + nets,3,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + nets,3,Perceptron,0.5333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + nets,3,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + registers,3,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + registers,3,Perceptron,0.5333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + registers,3,SGDClassifier,0.6,0.0
+ASIC45,fpga_luts,FPGA LUTs,area + power + nets,3,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,area + power + nets,3,Perceptron,0.7333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + power + nets,3,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + power + registers,3,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,area + power + registers,3,Perceptron,0.5333,0.1886
+ASIC45,fpga_luts,FPGA LUTs,area + power + registers,3,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + nets + registers,3,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,area + nets + registers,3,Perceptron,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,area + nets + registers,3,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_luts,FPGA LUTs,fmax + power + nets,3,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,fmax + power + nets,3,Perceptron,0.6667,0.0943
+ASIC45,fpga_luts,FPGA LUTs,fmax + power + nets,3,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_luts,FPGA LUTs,fmax + power + registers,3,LogisticRegression,0.6,0.2828
+ASIC45,fpga_luts,FPGA LUTs,fmax + power + registers,3,Perceptron,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,fmax + power + registers,3,SGDClassifier,0.4,0.0
+ASIC45,fpga_luts,FPGA LUTs,fmax + nets + registers,3,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_luts,FPGA LUTs,fmax + nets + registers,3,Perceptron,0.4667,0.1886
+ASIC45,fpga_luts,FPGA LUTs,fmax + nets + registers,3,SGDClassifier,0.5333,0.2494
+ASIC45,fpga_luts,FPGA LUTs,power + nets + registers,3,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,power + nets + registers,3,Perceptron,0.7333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,power + nets + registers,3,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + power + nets,4,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + power + nets,4,Perceptron,0.6667,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + power + nets,4,SGDClassifier,0.7333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + power + registers,4,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + power + registers,4,Perceptron,0.7333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + power + registers,4,SGDClassifier,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + nets + registers,4,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + nets + registers,4,Perceptron,0.6,0.0
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + nets + registers,4,SGDClassifier,0.5333,0.2494
+ASIC45,fpga_luts,FPGA LUTs,area + power + nets + registers,4,LogisticRegression,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,area + power + nets + registers,4,Perceptron,0.7333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + power + nets + registers,4,SGDClassifier,0.7333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,fmax + power + nets + registers,4,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_luts,FPGA LUTs,fmax + power + nets + registers,4,Perceptron,0.7333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,fmax + power + nets + registers,4,SGDClassifier,0.6,0.1633
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + power + nets + registers,5,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + power + nets + registers,5,Perceptron,0.7333,0.0943
+ASIC45,fpga_luts,FPGA LUTs,area + fmax + power + nets + registers,5,SGDClassifier,0.7333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area,1,LogisticRegression,0.4667,0.1886
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area,1,Perceptron,0.5333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area,1,SGDClassifier,0.6,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax,1,LogisticRegression,0.8,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax,1,Perceptron,0.6667,0.1886
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax,1,SGDClassifier,0.7333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),power,1,LogisticRegression,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),power,1,Perceptron,0.2667,0.2494
+ASIC45,fpga_fmax,FPGA Fmax (MHz),power,1,SGDClassifier,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),nets,1,LogisticRegression,0.4667,0.1886
+ASIC45,fpga_fmax,FPGA Fmax (MHz),nets,1,Perceptron,0.5333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),nets,1,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),registers,1,LogisticRegression,0.6,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),registers,1,Perceptron,0.4,0.0
+ASIC45,fpga_fmax,FPGA Fmax (MHz),registers,1,SGDClassifier,0.5333,0.1886
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax,2,LogisticRegression,0.6667,0.1886
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax,2,Perceptron,0.6667,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax,2,SGDClassifier,0.7333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + power,2,LogisticRegression,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + power,2,Perceptron,0.2667,0.2494
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + power,2,SGDClassifier,0.3333,0.1886
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + nets,2,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + nets,2,Perceptron,0.6,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + nets,2,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + registers,2,LogisticRegression,0.6,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + registers,2,Perceptron,0.5333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + registers,2,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + power,2,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + power,2,Perceptron,0.5333,0.2494
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + power,2,SGDClassifier,0.5333,0.1886
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + nets,2,LogisticRegression,0.6667,0.1886
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + nets,2,Perceptron,0.6,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + nets,2,SGDClassifier,0.7333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + registers,2,LogisticRegression,0.6,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + registers,2,Perceptron,0.6667,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + registers,2,SGDClassifier,0.6,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),power + nets,2,LogisticRegression,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),power + nets,2,Perceptron,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),power + nets,2,SGDClassifier,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),power + registers,2,LogisticRegression,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),power + registers,2,Perceptron,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),power + registers,2,SGDClassifier,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),nets + registers,2,LogisticRegression,0.6,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),nets + registers,2,Perceptron,0.4667,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),nets + registers,2,SGDClassifier,0.4,0.0
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + power,3,LogisticRegression,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + power,3,Perceptron,0.4667,0.1886
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + power,3,SGDClassifier,0.4667,0.1886
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + nets,3,LogisticRegression,0.6667,0.1886
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + nets,3,Perceptron,0.7333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + nets,3,SGDClassifier,0.7333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + registers,3,LogisticRegression,0.6,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + registers,3,Perceptron,0.6,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + registers,3,SGDClassifier,0.6,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + power + nets,3,LogisticRegression,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + power + nets,3,Perceptron,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + power + nets,3,SGDClassifier,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + power + registers,3,LogisticRegression,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + power + registers,3,Perceptron,0.2667,0.2494
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + power + registers,3,SGDClassifier,0.2667,0.2494
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + nets + registers,3,LogisticRegression,0.5333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + nets + registers,3,Perceptron,0.6,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + nets + registers,3,SGDClassifier,0.6,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + power + nets,3,LogisticRegression,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + power + nets,3,Perceptron,0.6,0.2828
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + power + nets,3,SGDClassifier,0.5333,0.2494
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + power + registers,3,LogisticRegression,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + power + registers,3,Perceptron,0.4667,0.1886
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + power + registers,3,SGDClassifier,0.3333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + nets + registers,3,LogisticRegression,0.6,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + nets + registers,3,Perceptron,0.6,0.0
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + nets + registers,3,SGDClassifier,0.6,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),power + nets + registers,3,LogisticRegression,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),power + nets + registers,3,Perceptron,0.3333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),power + nets + registers,3,SGDClassifier,0.2667,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + nets,4,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + nets,4,Perceptron,0.3333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + nets,4,SGDClassifier,0.4667,0.1886
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + registers,4,LogisticRegression,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + registers,4,Perceptron,0.3333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + registers,4,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + nets + registers,4,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + nets + registers,4,Perceptron,0.6667,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + nets + registers,4,SGDClassifier,0.7333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + power + nets + registers,4,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + power + nets + registers,4,Perceptron,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + power + nets + registers,4,SGDClassifier,0.2,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + power + nets + registers,4,LogisticRegression,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + power + nets + registers,4,Perceptron,0.3333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),fmax + power + nets + registers,4,SGDClassifier,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + nets + registers,5,LogisticRegression,0.4,0.1633
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + nets + registers,5,Perceptron,0.3333,0.0943
+ASIC45,fpga_fmax,FPGA Fmax (MHz),area + fmax + power + nets + registers,5,SGDClassifier,0.4,0.1633
+ASIC45,fpga_power,FPGA Power (mW),area,1,LogisticRegression,0.2667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area,1,Perceptron,0.2667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area,1,SGDClassifier,0.2,0.0
+ASIC45,fpga_power,FPGA Power (mW),fmax,1,LogisticRegression,0.4,0.1633
+ASIC45,fpga_power,FPGA Power (mW),fmax,1,Perceptron,0.3333,0.1886
+ASIC45,fpga_power,FPGA Power (mW),fmax,1,SGDClassifier,0.3333,0.1886
+ASIC45,fpga_power,FPGA Power (mW),power,1,LogisticRegression,0.5333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),power,1,Perceptron,0.4667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),power,1,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),nets,1,LogisticRegression,0.2667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),nets,1,Perceptron,0.2667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),nets,1,SGDClassifier,0.3333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),registers,1,LogisticRegression,0.4,0.1633
+ASIC45,fpga_power,FPGA Power (mW),registers,1,Perceptron,0.4,0.1633
+ASIC45,fpga_power,FPGA Power (mW),registers,1,SGDClassifier,0.2667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + fmax,2,LogisticRegression,0.3333,0.1886
+ASIC45,fpga_power,FPGA Power (mW),area + fmax,2,Perceptron,0.3333,0.1886
+ASIC45,fpga_power,FPGA Power (mW),area + fmax,2,SGDClassifier,0.3333,0.1886
+ASIC45,fpga_power,FPGA Power (mW),area + power,2,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + power,2,Perceptron,0.4667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + power,2,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + nets,2,LogisticRegression,0.3333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + nets,2,Perceptron,0.3333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + nets,2,SGDClassifier,0.3333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + registers,2,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + registers,2,Perceptron,0.3333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + registers,2,SGDClassifier,0.2667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),fmax + power,2,LogisticRegression,0.6,0.1633
+ASIC45,fpga_power,FPGA Power (mW),fmax + power,2,Perceptron,0.4,0.1633
+ASIC45,fpga_power,FPGA Power (mW),fmax + power,2,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),fmax + nets,2,LogisticRegression,0.3333,0.1886
+ASIC45,fpga_power,FPGA Power (mW),fmax + nets,2,Perceptron,0.4667,0.1886
+ASIC45,fpga_power,FPGA Power (mW),fmax + nets,2,SGDClassifier,0.2667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),fmax + registers,2,LogisticRegression,0.4,0.1633
+ASIC45,fpga_power,FPGA Power (mW),fmax + registers,2,Perceptron,0.3333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),fmax + registers,2,SGDClassifier,0.3333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),power + nets,2,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),power + nets,2,Perceptron,0.3333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),power + nets,2,SGDClassifier,0.4,0.0
+ASIC45,fpga_power,FPGA Power (mW),power + registers,2,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),power + registers,2,Perceptron,0.4667,0.1886
+ASIC45,fpga_power,FPGA Power (mW),power + registers,2,SGDClassifier,0.3333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),nets + registers,2,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),nets + registers,2,Perceptron,0.4,0.1633
+ASIC45,fpga_power,FPGA Power (mW),nets + registers,2,SGDClassifier,0.4,0.0
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + power,3,LogisticRegression,0.6,0.1633
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + power,3,Perceptron,0.5333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + power,3,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + nets,3,LogisticRegression,0.4,0.1633
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + nets,3,Perceptron,0.2667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + nets,3,SGDClassifier,0.3333,0.1886
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + registers,3,LogisticRegression,0.4,0.1633
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + registers,3,Perceptron,0.2667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + registers,3,SGDClassifier,0.2667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + power + nets,3,LogisticRegression,0.4,0.0
+ASIC45,fpga_power,FPGA Power (mW),area + power + nets,3,Perceptron,0.4667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + power + nets,3,SGDClassifier,0.4667,0.1886
+ASIC45,fpga_power,FPGA Power (mW),area + power + registers,3,LogisticRegression,0.4,0.0
+ASIC45,fpga_power,FPGA Power (mW),area + power + registers,3,Perceptron,0.3333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + power + registers,3,SGDClassifier,0.4,0.0
+ASIC45,fpga_power,FPGA Power (mW),area + nets + registers,3,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + nets + registers,3,Perceptron,0.3333,0.1886
+ASIC45,fpga_power,FPGA Power (mW),area + nets + registers,3,SGDClassifier,0.3333,0.1886
+ASIC45,fpga_power,FPGA Power (mW),fmax + power + nets,3,LogisticRegression,0.6,0.1633
+ASIC45,fpga_power,FPGA Power (mW),fmax + power + nets,3,Perceptron,0.4,0.1633
+ASIC45,fpga_power,FPGA Power (mW),fmax + power + nets,3,SGDClassifier,0.4,0.1633
+ASIC45,fpga_power,FPGA Power (mW),fmax + power + registers,3,LogisticRegression,0.6,0.1633
+ASIC45,fpga_power,FPGA Power (mW),fmax + power + registers,3,Perceptron,0.4667,0.0943
+ASIC45,fpga_power,FPGA Power (mW),fmax + power + registers,3,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),fmax + nets + registers,3,LogisticRegression,0.4,0.1633
+ASIC45,fpga_power,FPGA Power (mW),fmax + nets + registers,3,Perceptron,0.3333,0.1886
+ASIC45,fpga_power,FPGA Power (mW),fmax + nets + registers,3,SGDClassifier,0.4667,0.1886
+ASIC45,fpga_power,FPGA Power (mW),power + nets + registers,3,LogisticRegression,0.4,0.0
+ASIC45,fpga_power,FPGA Power (mW),power + nets + registers,3,Perceptron,0.3333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),power + nets + registers,3,SGDClassifier,0.4,0.1633
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + power + nets,4,LogisticRegression,0.5333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + power + nets,4,Perceptron,0.5333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + power + nets,4,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + power + registers,4,LogisticRegression,0.6,0.1633
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + power + registers,4,Perceptron,0.4667,0.1886
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + power + registers,4,SGDClassifier,0.5333,0.1886
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + nets + registers,4,LogisticRegression,0.4,0.1633
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + nets + registers,4,Perceptron,0.4667,0.1886
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + nets + registers,4,SGDClassifier,0.4667,0.1886
+ASIC45,fpga_power,FPGA Power (mW),area + power + nets + registers,4,LogisticRegression,0.4,0.0
+ASIC45,fpga_power,FPGA Power (mW),area + power + nets + registers,4,Perceptron,0.3333,0.1886
+ASIC45,fpga_power,FPGA Power (mW),area + power + nets + registers,4,SGDClassifier,0.3333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),fmax + power + nets + registers,4,LogisticRegression,0.5333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),fmax + power + nets + registers,4,Perceptron,0.6,0.1633
+ASIC45,fpga_power,FPGA Power (mW),fmax + power + nets + registers,4,SGDClassifier,0.6,0.1633
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + power + nets + registers,5,LogisticRegression,0.5333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + power + nets + registers,5,Perceptron,0.5333,0.0943
+ASIC45,fpga_power,FPGA Power (mW),area + fmax + power + nets + registers,5,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_nets,FPGA Nets,area,1,LogisticRegression,0.6,0.1633
+ASIC45,fpga_nets,FPGA Nets,area,1,Perceptron,0.4,0.1633
+ASIC45,fpga_nets,FPGA Nets,area,1,SGDClassifier,0.4,0.1633
+ASIC45,fpga_nets,FPGA Nets,fmax,1,LogisticRegression,0.6,0.0
+ASIC45,fpga_nets,FPGA Nets,fmax,1,Perceptron,0.4667,0.0943
+ASIC45,fpga_nets,FPGA Nets,fmax,1,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_nets,FPGA Nets,power,1,LogisticRegression,0.4,0.0
+ASIC45,fpga_nets,FPGA Nets,power,1,Perceptron,0.3333,0.1886
+ASIC45,fpga_nets,FPGA Nets,power,1,SGDClassifier,0.3333,0.1886
+ASIC45,fpga_nets,FPGA Nets,nets,1,LogisticRegression,0.6,0.1633
+ASIC45,fpga_nets,FPGA Nets,nets,1,Perceptron,0.5333,0.0943
+ASIC45,fpga_nets,FPGA Nets,nets,1,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_nets,FPGA Nets,registers,1,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,registers,1,Perceptron,0.4,0.1633
+ASIC45,fpga_nets,FPGA Nets,registers,1,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + fmax,2,LogisticRegression,0.6,0.1633
+ASIC45,fpga_nets,FPGA Nets,area + fmax,2,Perceptron,0.6,0.0
+ASIC45,fpga_nets,FPGA Nets,area + fmax,2,SGDClassifier,0.6,0.0
+ASIC45,fpga_nets,FPGA Nets,area + power,2,LogisticRegression,0.6,0.2828
+ASIC45,fpga_nets,FPGA Nets,area + power,2,Perceptron,0.7333,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + power,2,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + nets,2,LogisticRegression,0.6,0.1633
+ASIC45,fpga_nets,FPGA Nets,area + nets,2,Perceptron,0.4,0.1633
+ASIC45,fpga_nets,FPGA Nets,area + nets,2,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + registers,2,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,area + registers,2,Perceptron,0.7333,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + registers,2,SGDClassifier,0.6,0.1633
+ASIC45,fpga_nets,FPGA Nets,fmax + power,2,LogisticRegression,0.5333,0.0943
+ASIC45,fpga_nets,FPGA Nets,fmax + power,2,Perceptron,0.7333,0.2494
+ASIC45,fpga_nets,FPGA Nets,fmax + power,2,SGDClassifier,0.7333,0.1886
+ASIC45,fpga_nets,FPGA Nets,fmax + nets,2,LogisticRegression,0.6,0.1633
+ASIC45,fpga_nets,FPGA Nets,fmax + nets,2,Perceptron,0.6667,0.0943
+ASIC45,fpga_nets,FPGA Nets,fmax + nets,2,SGDClassifier,0.6,0.0
+ASIC45,fpga_nets,FPGA Nets,fmax + registers,2,LogisticRegression,0.6,0.1633
+ASIC45,fpga_nets,FPGA Nets,fmax + registers,2,Perceptron,0.4667,0.0943
+ASIC45,fpga_nets,FPGA Nets,fmax + registers,2,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_nets,FPGA Nets,power + nets,2,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,power + nets,2,Perceptron,0.7333,0.0943
+ASIC45,fpga_nets,FPGA Nets,power + nets,2,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_nets,FPGA Nets,power + registers,2,LogisticRegression,0.6,0.2828
+ASIC45,fpga_nets,FPGA Nets,power + registers,2,Perceptron,0.6,0.0
+ASIC45,fpga_nets,FPGA Nets,power + registers,2,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_nets,FPGA Nets,nets + registers,2,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,nets + registers,2,Perceptron,0.7333,0.0943
+ASIC45,fpga_nets,FPGA Nets,nets + registers,2,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + fmax + power,3,LogisticRegression,0.7333,0.1886
+ASIC45,fpga_nets,FPGA Nets,area + fmax + power,3,Perceptron,0.6667,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + fmax + power,3,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + fmax + nets,3,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,area + fmax + nets,3,Perceptron,0.6,0.0
+ASIC45,fpga_nets,FPGA Nets,area + fmax + nets,3,SGDClassifier,0.6,0.0
+ASIC45,fpga_nets,FPGA Nets,area + fmax + registers,3,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,area + fmax + registers,3,Perceptron,0.6667,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + fmax + registers,3,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + power + nets,3,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,area + power + nets,3,Perceptron,0.6667,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + power + nets,3,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + power + registers,3,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,area + power + registers,3,Perceptron,0.6667,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + power + registers,3,SGDClassifier,0.7333,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + nets + registers,3,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,area + nets + registers,3,Perceptron,0.6,0.1633
+ASIC45,fpga_nets,FPGA Nets,area + nets + registers,3,SGDClassifier,0.6,0.1633
+ASIC45,fpga_nets,FPGA Nets,fmax + power + nets,3,LogisticRegression,0.7333,0.1886
+ASIC45,fpga_nets,FPGA Nets,fmax + power + nets,3,Perceptron,0.6667,0.0943
+ASIC45,fpga_nets,FPGA Nets,fmax + power + nets,3,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_nets,FPGA Nets,fmax + power + registers,3,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,fmax + power + registers,3,Perceptron,0.6667,0.1886
+ASIC45,fpga_nets,FPGA Nets,fmax + power + registers,3,SGDClassifier,0.6,0.1633
+ASIC45,fpga_nets,FPGA Nets,fmax + nets + registers,3,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,fmax + nets + registers,3,Perceptron,0.6,0.0
+ASIC45,fpga_nets,FPGA Nets,fmax + nets + registers,3,SGDClassifier,0.6,0.0
+ASIC45,fpga_nets,FPGA Nets,power + nets + registers,3,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,power + nets + registers,3,Perceptron,0.6667,0.1886
+ASIC45,fpga_nets,FPGA Nets,power + nets + registers,3,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + fmax + power + nets,4,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,area + fmax + power + nets,4,Perceptron,0.7333,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + fmax + power + nets,4,SGDClassifier,0.7333,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + fmax + power + registers,4,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,area + fmax + power + registers,4,Perceptron,0.6667,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + fmax + power + registers,4,SGDClassifier,0.6,0.1633
+ASIC45,fpga_nets,FPGA Nets,area + fmax + nets + registers,4,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,area + fmax + nets + registers,4,Perceptron,0.4667,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + fmax + nets + registers,4,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + power + nets + registers,4,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,area + power + nets + registers,4,Perceptron,0.8,0.1633
+ASIC45,fpga_nets,FPGA Nets,area + power + nets + registers,4,SGDClassifier,0.7333,0.0943
+ASIC45,fpga_nets,FPGA Nets,fmax + power + nets + registers,4,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,fmax + power + nets + registers,4,Perceptron,0.6,0.1633
+ASIC45,fpga_nets,FPGA Nets,fmax + power + nets + registers,4,SGDClassifier,0.6,0.1633
+ASIC45,fpga_nets,FPGA Nets,area + fmax + power + nets + registers,5,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_nets,FPGA Nets,area + fmax + power + nets + registers,5,Perceptron,0.6667,0.0943
+ASIC45,fpga_nets,FPGA Nets,area + fmax + power + nets + registers,5,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_ffs,FPGA FFs,area,1,LogisticRegression,0.6,0.2828
+ASIC45,fpga_ffs,FPGA FFs,area,1,Perceptron,0.4,0.1633
+ASIC45,fpga_ffs,FPGA FFs,area,1,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_ffs,FPGA FFs,fmax,1,LogisticRegression,0.4667,0.1886
+ASIC45,fpga_ffs,FPGA FFs,fmax,1,Perceptron,0.4667,0.2494
+ASIC45,fpga_ffs,FPGA FFs,fmax,1,SGDClassifier,0.4667,0.2494
+ASIC45,fpga_ffs,FPGA FFs,power,1,LogisticRegression,0.4,0.0
+ASIC45,fpga_ffs,FPGA FFs,power,1,Perceptron,0.4,0.1633
+ASIC45,fpga_ffs,FPGA FFs,power,1,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_ffs,FPGA FFs,nets,1,LogisticRegression,0.6,0.2828
+ASIC45,fpga_ffs,FPGA FFs,nets,1,Perceptron,0.5333,0.0943
+ASIC45,fpga_ffs,FPGA FFs,nets,1,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_ffs,FPGA FFs,registers,1,LogisticRegression,0.6,0.3266
+ASIC45,fpga_ffs,FPGA FFs,registers,1,Perceptron,0.5333,0.0943
+ASIC45,fpga_ffs,FPGA FFs,registers,1,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_ffs,FPGA FFs,area + fmax,2,LogisticRegression,0.6,0.2828
+ASIC45,fpga_ffs,FPGA FFs,area + fmax,2,Perceptron,0.6667,0.0943
+ASIC45,fpga_ffs,FPGA FFs,area + fmax,2,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_ffs,FPGA FFs,area + power,2,LogisticRegression,0.7333,0.2494
+ASIC45,fpga_ffs,FPGA FFs,area + power,2,Perceptron,0.6,0.1633
+ASIC45,fpga_ffs,FPGA FFs,area + power,2,SGDClassifier,0.6,0.0
+ASIC45,fpga_ffs,FPGA FFs,area + nets,2,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_ffs,FPGA FFs,area + nets,2,Perceptron,0.5333,0.0943
+ASIC45,fpga_ffs,FPGA FFs,area + nets,2,SGDClassifier,0.4667,0.1886
+ASIC45,fpga_ffs,FPGA FFs,area + registers,2,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_ffs,FPGA FFs,area + registers,2,Perceptron,0.5333,0.0943
+ASIC45,fpga_ffs,FPGA FFs,area + registers,2,SGDClassifier,0.6,0.0
+ASIC45,fpga_ffs,FPGA FFs,fmax + power,2,LogisticRegression,0.4,0.1633
+ASIC45,fpga_ffs,FPGA FFs,fmax + power,2,Perceptron,0.5333,0.2494
+ASIC45,fpga_ffs,FPGA FFs,fmax + power,2,SGDClassifier,0.4667,0.2494
+ASIC45,fpga_ffs,FPGA FFs,fmax + nets,2,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_ffs,FPGA FFs,fmax + nets,2,Perceptron,0.5333,0.1886
+ASIC45,fpga_ffs,FPGA FFs,fmax + nets,2,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_ffs,FPGA FFs,fmax + registers,2,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_ffs,FPGA FFs,fmax + registers,2,Perceptron,0.6,0.0
+ASIC45,fpga_ffs,FPGA FFs,fmax + registers,2,SGDClassifier,0.6,0.1633
+ASIC45,fpga_ffs,FPGA FFs,power + nets,2,LogisticRegression,0.7333,0.2494
+ASIC45,fpga_ffs,FPGA FFs,power + nets,2,Perceptron,0.7333,0.0943
+ASIC45,fpga_ffs,FPGA FFs,power + nets,2,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_ffs,FPGA FFs,power + registers,2,LogisticRegression,0.6,0.1633
+ASIC45,fpga_ffs,FPGA FFs,power + registers,2,Perceptron,0.6,0.0
+ASIC45,fpga_ffs,FPGA FFs,power + registers,2,SGDClassifier,0.6,0.0
+ASIC45,fpga_ffs,FPGA FFs,nets + registers,2,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_ffs,FPGA FFs,nets + registers,2,Perceptron,0.5333,0.0943
+ASIC45,fpga_ffs,FPGA FFs,nets + registers,2,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + power,3,LogisticRegression,0.6,0.2828
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + power,3,Perceptron,0.6667,0.0943
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + power,3,SGDClassifier,0.6,0.1633
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + nets,3,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + nets,3,Perceptron,0.5333,0.1886
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + nets,3,SGDClassifier,0.6,0.1633
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + registers,3,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + registers,3,Perceptron,0.5333,0.1886
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + registers,3,SGDClassifier,0.5333,0.1886
+ASIC45,fpga_ffs,FPGA FFs,area + power + nets,3,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_ffs,FPGA FFs,area + power + nets,3,Perceptron,0.7333,0.0943
+ASIC45,fpga_ffs,FPGA FFs,area + power + nets,3,SGDClassifier,0.6,0.1633
+ASIC45,fpga_ffs,FPGA FFs,area + power + registers,3,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_ffs,FPGA FFs,area + power + registers,3,Perceptron,0.6,0.0
+ASIC45,fpga_ffs,FPGA FFs,area + power + registers,3,SGDClassifier,0.6,0.0
+ASIC45,fpga_ffs,FPGA FFs,area + nets + registers,3,LogisticRegression,0.7333,0.2494
+ASIC45,fpga_ffs,FPGA FFs,area + nets + registers,3,Perceptron,0.6,0.1633
+ASIC45,fpga_ffs,FPGA FFs,area + nets + registers,3,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_ffs,FPGA FFs,fmax + power + nets,3,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_ffs,FPGA FFs,fmax + power + nets,3,Perceptron,0.6667,0.1886
+ASIC45,fpga_ffs,FPGA FFs,fmax + power + nets,3,SGDClassifier,0.6,0.1633
+ASIC45,fpga_ffs,FPGA FFs,fmax + power + registers,3,LogisticRegression,0.4667,0.1886
+ASIC45,fpga_ffs,FPGA FFs,fmax + power + registers,3,Perceptron,0.4667,0.0943
+ASIC45,fpga_ffs,FPGA FFs,fmax + power + registers,3,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_ffs,FPGA FFs,fmax + nets + registers,3,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_ffs,FPGA FFs,fmax + nets + registers,3,Perceptron,0.6667,0.1886
+ASIC45,fpga_ffs,FPGA FFs,fmax + nets + registers,3,SGDClassifier,0.5333,0.1886
+ASIC45,fpga_ffs,FPGA FFs,power + nets + registers,3,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_ffs,FPGA FFs,power + nets + registers,3,Perceptron,0.6667,0.0943
+ASIC45,fpga_ffs,FPGA FFs,power + nets + registers,3,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + power + nets,4,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + power + nets,4,Perceptron,0.6,0.1633
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + power + nets,4,SGDClassifier,0.6,0.1633
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + power + registers,4,LogisticRegression,0.6,0.2828
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + power + registers,4,Perceptron,0.6667,0.0943
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + power + registers,4,SGDClassifier,0.6667,0.1886
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + nets + registers,4,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + nets + registers,4,Perceptron,0.5333,0.0943
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + nets + registers,4,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_ffs,FPGA FFs,area + power + nets + registers,4,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_ffs,FPGA FFs,area + power + nets + registers,4,Perceptron,0.7333,0.0943
+ASIC45,fpga_ffs,FPGA FFs,area + power + nets + registers,4,SGDClassifier,0.7333,0.0943
+ASIC45,fpga_ffs,FPGA FFs,fmax + power + nets + registers,4,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_ffs,FPGA FFs,fmax + power + nets + registers,4,Perceptron,0.6667,0.0943
+ASIC45,fpga_ffs,FPGA FFs,fmax + power + nets + registers,4,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + power + nets + registers,5,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + power + nets + registers,5,Perceptron,0.6,0.1633
+ASIC45,fpga_ffs,FPGA FFs,area + fmax + power + nets + registers,5,SGDClassifier,0.6,0.1633
+ASIC45,fpga_distram,FPGA Dist.RAM,area,1,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area,1,Perceptron,0.2667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area,1,SGDClassifier,0.3333,0.1886
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax,1,LogisticRegression,0.5333,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax,1,Perceptron,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax,1,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,power,1,LogisticRegression,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,power,1,Perceptron,0.4,0.1633
+ASIC45,fpga_distram,FPGA Dist.RAM,power,1,SGDClassifier,0.4,0.1633
+ASIC45,fpga_distram,FPGA Dist.RAM,nets,1,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,nets,1,Perceptron,0.3333,0.1886
+ASIC45,fpga_distram,FPGA Dist.RAM,nets,1,SGDClassifier,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,registers,1,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,registers,1,Perceptron,0.3333,0.1886
+ASIC45,fpga_distram,FPGA Dist.RAM,registers,1,SGDClassifier,0.2667,0.2494
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax,2,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax,2,Perceptron,0.6,0.1633
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax,2,SGDClassifier,0.4667,0.2494
+ASIC45,fpga_distram,FPGA Dist.RAM,area + power,2,LogisticRegression,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,area + power,2,Perceptron,0.3333,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + power,2,SGDClassifier,0.2,0.1633
+ASIC45,fpga_distram,FPGA Dist.RAM,area + nets,2,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + nets,2,Perceptron,0.3333,0.2494
+ASIC45,fpga_distram,FPGA Dist.RAM,area + nets,2,SGDClassifier,0.3333,0.1886
+ASIC45,fpga_distram,FPGA Dist.RAM,area + registers,2,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + registers,2,Perceptron,0.2,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,area + registers,2,SGDClassifier,0.2,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + power,2,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + power,2,Perceptron,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + power,2,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + nets,2,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + nets,2,Perceptron,0.4,0.1633
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + nets,2,SGDClassifier,0.4,0.1633
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + registers,2,LogisticRegression,0.5333,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + registers,2,Perceptron,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + registers,2,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,power + nets,2,LogisticRegression,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,power + nets,2,Perceptron,0.4,0.1633
+ASIC45,fpga_distram,FPGA Dist.RAM,power + nets,2,SGDClassifier,0.3333,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,power + registers,2,LogisticRegression,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,power + registers,2,Perceptron,0.2667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,power + registers,2,SGDClassifier,0.2667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,nets + registers,2,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,nets + registers,2,Perceptron,0.2,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,nets + registers,2,SGDClassifier,0.2,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + power,3,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + power,3,Perceptron,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + power,3,SGDClassifier,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + nets,3,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + nets,3,Perceptron,0.4667,0.2494
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + nets,3,SGDClassifier,0.4667,0.2494
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + registers,3,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + registers,3,Perceptron,0.2667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + registers,3,SGDClassifier,0.4,0.1633
+ASIC45,fpga_distram,FPGA Dist.RAM,area + power + nets,3,LogisticRegression,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,area + power + nets,3,Perceptron,0.3333,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + power + nets,3,SGDClassifier,0.3333,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + power + registers,3,LogisticRegression,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,area + power + registers,3,Perceptron,0.2,0.1633
+ASIC45,fpga_distram,FPGA Dist.RAM,area + power + registers,3,SGDClassifier,0.2667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + nets + registers,3,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + nets + registers,3,Perceptron,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + nets + registers,3,SGDClassifier,0.4,0.1633
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + power + nets,3,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + power + nets,3,Perceptron,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + power + nets,3,SGDClassifier,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + power + registers,3,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + power + registers,3,Perceptron,0.3333,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + power + registers,3,SGDClassifier,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + nets + registers,3,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + nets + registers,3,Perceptron,0.5333,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + nets + registers,3,SGDClassifier,0.4,0.1633
+ASIC45,fpga_distram,FPGA Dist.RAM,power + nets + registers,3,LogisticRegression,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,power + nets + registers,3,Perceptron,0.2667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,power + nets + registers,3,SGDClassifier,0.3333,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + power + nets,4,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + power + nets,4,Perceptron,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + power + nets,4,SGDClassifier,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + power + registers,4,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + power + registers,4,Perceptron,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + power + registers,4,SGDClassifier,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + nets + registers,4,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + nets + registers,4,Perceptron,0.4,0.1633
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + nets + registers,4,SGDClassifier,0.4,0.1633
+ASIC45,fpga_distram,FPGA Dist.RAM,area + power + nets + registers,4,LogisticRegression,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,area + power + nets + registers,4,Perceptron,0.2667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + power + nets + registers,4,SGDClassifier,0.2667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + power + nets + registers,4,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + power + nets + registers,4,Perceptron,0.3333,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,fmax + power + nets + registers,4,SGDClassifier,0.3333,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + power + nets + registers,5,LogisticRegression,0.4667,0.0943
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + power + nets + registers,5,Perceptron,0.4,0.0
+ASIC45,fpga_distram,FPGA Dist.RAM,area + fmax + power + nets + registers,5,SGDClassifier,0.4,0.0
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area,1,LogisticRegression,0.6,0.2828
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area,1,Perceptron,0.4,0.1633
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area,1,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax,1,LogisticRegression,0.4667,0.1886
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax,1,Perceptron,0.4667,0.2494
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax,1,SGDClassifier,0.4667,0.2494
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,power,1,LogisticRegression,0.4,0.0
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,power,1,Perceptron,0.4,0.1633
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,power,1,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,nets,1,LogisticRegression,0.6,0.2828
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,nets,1,Perceptron,0.5333,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,nets,1,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,registers,1,LogisticRegression,0.6,0.3266
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,registers,1,Perceptron,0.5333,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,registers,1,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax,2,LogisticRegression,0.6,0.2828
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax,2,Perceptron,0.6667,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax,2,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + power,2,LogisticRegression,0.7333,0.2494
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + power,2,Perceptron,0.6,0.1633
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + power,2,SGDClassifier,0.6,0.0
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + nets,2,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + nets,2,Perceptron,0.5333,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + nets,2,SGDClassifier,0.4667,0.1886
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + registers,2,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + registers,2,Perceptron,0.5333,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + registers,2,SGDClassifier,0.6,0.0
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power,2,LogisticRegression,0.4,0.1633
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power,2,Perceptron,0.5333,0.2494
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power,2,SGDClassifier,0.4667,0.2494
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + nets,2,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + nets,2,Perceptron,0.5333,0.1886
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + nets,2,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + registers,2,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + registers,2,Perceptron,0.6,0.0
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + registers,2,SGDClassifier,0.6,0.1633
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,power + nets,2,LogisticRegression,0.7333,0.2494
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,power + nets,2,Perceptron,0.7333,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,power + nets,2,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,power + registers,2,LogisticRegression,0.6,0.1633
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,power + registers,2,Perceptron,0.6,0.0
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,power + registers,2,SGDClassifier,0.6,0.0
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,nets + registers,2,LogisticRegression,0.6667,0.2494
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,nets + registers,2,Perceptron,0.5333,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,nets + registers,2,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power,3,LogisticRegression,0.6,0.2828
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power,3,Perceptron,0.6667,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power,3,SGDClassifier,0.6,0.1633
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + nets,3,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + nets,3,Perceptron,0.5333,0.1886
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + nets,3,SGDClassifier,0.6,0.1633
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + registers,3,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + registers,3,Perceptron,0.5333,0.1886
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + registers,3,SGDClassifier,0.5333,0.1886
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + nets,3,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + nets,3,Perceptron,0.7333,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + nets,3,SGDClassifier,0.6,0.1633
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + registers,3,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + registers,3,Perceptron,0.6,0.0
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + registers,3,SGDClassifier,0.6,0.0
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + nets + registers,3,LogisticRegression,0.7333,0.2494
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + nets + registers,3,Perceptron,0.6,0.1633
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + nets + registers,3,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + nets,3,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + nets,3,Perceptron,0.6667,0.1886
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + nets,3,SGDClassifier,0.6,0.1633
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + registers,3,LogisticRegression,0.4667,0.1886
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + registers,3,Perceptron,0.4667,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + registers,3,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + nets + registers,3,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + nets + registers,3,Perceptron,0.6667,0.1886
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + nets + registers,3,SGDClassifier,0.5333,0.1886
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,power + nets + registers,3,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,power + nets + registers,3,Perceptron,0.6667,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,power + nets + registers,3,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + nets,4,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + nets,4,Perceptron,0.6,0.1633
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + nets,4,SGDClassifier,0.6,0.1633
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + registers,4,LogisticRegression,0.6,0.2828
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + registers,4,Perceptron,0.6667,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + registers,4,SGDClassifier,0.6667,0.1886
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + nets + registers,4,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + nets + registers,4,Perceptron,0.5333,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + nets + registers,4,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + nets + registers,4,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + nets + registers,4,Perceptron,0.7333,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + power + nets + registers,4,SGDClassifier,0.7333,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + nets + registers,4,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + nets + registers,4,Perceptron,0.6667,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,fmax + power + nets + registers,4,SGDClassifier,0.6667,0.0943
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + nets + registers,5,LogisticRegression,0.6667,0.3399
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + nets + registers,5,Perceptron,0.6,0.1633
+ASIC45,fpga_lookahead8,FPGA LOOKAHEAD8,area + fmax + power + nets + registers,5,SGDClassifier,0.6,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area,1,LogisticRegression,0.4667,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area,1,Perceptron,0.4667,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area,1,SGDClassifier,0.3333,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax,1,LogisticRegression,0.4667,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax,1,Perceptron,0.4,0.2828
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax,1,SGDClassifier,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,power,1,LogisticRegression,0.6,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,power,1,Perceptron,0.4667,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,power,1,SGDClassifier,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,nets,1,LogisticRegression,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,nets,1,Perceptron,0.5333,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,nets,1,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,registers,1,LogisticRegression,0.6,0.2828
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,registers,1,Perceptron,0.5333,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,registers,1,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax,2,LogisticRegression,0.4667,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax,2,Perceptron,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax,2,SGDClassifier,0.4667,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power,2,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power,2,Perceptron,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power,2,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + nets,2,LogisticRegression,0.5333,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + nets,2,Perceptron,0.4667,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + nets,2,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + registers,2,LogisticRegression,0.5333,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + registers,2,Perceptron,0.4667,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + registers,2,SGDClassifier,0.3333,0.2494
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power,2,LogisticRegression,0.4667,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power,2,Perceptron,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power,2,SGDClassifier,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + nets,2,LogisticRegression,0.4667,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + nets,2,Perceptron,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + nets,2,SGDClassifier,0.4667,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + registers,2,LogisticRegression,0.6,0.3266
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + registers,2,Perceptron,0.5333,0.2494
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + registers,2,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + nets,2,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + nets,2,Perceptron,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + nets,2,SGDClassifier,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + registers,2,LogisticRegression,0.6,0.3266
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + registers,2,Perceptron,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + registers,2,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,nets + registers,2,LogisticRegression,0.5333,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,nets + registers,2,Perceptron,0.4667,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,nets + registers,2,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power,3,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power,3,Perceptron,0.3333,0.2494
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power,3,SGDClassifier,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + nets,3,LogisticRegression,0.4667,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + nets,3,Perceptron,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + nets,3,SGDClassifier,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + registers,3,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + registers,3,Perceptron,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + registers,3,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + nets,3,LogisticRegression,0.6,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + nets,3,Perceptron,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + nets,3,SGDClassifier,0.6,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + registers,3,LogisticRegression,0.6,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + registers,3,Perceptron,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + registers,3,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + nets + registers,3,LogisticRegression,0.5333,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + nets + registers,3,Perceptron,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + nets + registers,3,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + nets,3,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + nets,3,Perceptron,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + nets,3,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + registers,3,LogisticRegression,0.4667,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + registers,3,Perceptron,0.4667,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + registers,3,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + nets + registers,3,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + nets + registers,3,Perceptron,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + nets + registers,3,SGDClassifier,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + nets + registers,3,LogisticRegression,0.6,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + nets + registers,3,Perceptron,0.5333,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,power + nets + registers,3,SGDClassifier,0.3333,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + nets,4,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + nets,4,Perceptron,0.4667,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + nets,4,SGDClassifier,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + registers,4,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + registers,4,Perceptron,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + registers,4,SGDClassifier,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + nets + registers,4,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + nets + registers,4,Perceptron,0.3333,0.1886
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + nets + registers,4,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + nets + registers,4,LogisticRegression,0.6,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + nets + registers,4,Perceptron,0.2667,0.2494
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + power + nets + registers,4,SGDClassifier,0.5333,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + nets + registers,4,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + nets + registers,4,Perceptron,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,fmax + power + nets + registers,4,SGDClassifier,0.4667,0.0943
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + nets + registers,5,LogisticRegression,0.5333,0.2494
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + nets + registers,5,Perceptron,0.4,0.1633
+ASIC45,fpga_unicontrolsets,FPGA Uni.Control.Sets,area + fmax + power + nets + registers,5,SGDClassifier,0.4,0.1633
